@@ -6,8 +6,8 @@ Build a docker image to run node.js application in ubuntu.
 # Build
 
 ```
-git clone
-cd
+git clone https://github.com/killme2008/Docker-NodeJS-Ubuntu.git
+cd Docker-NodeJS-Ubuntu.git
 docker build -t dennis/node-js .
 docker run -p 47516:8080 -d dennis/node-js
 ```
